@@ -15,7 +15,7 @@ Steps to replace 2014 data with 2024 data:
 9. Replace "Artificer (UA) (Artillerist)</classes>" with "Artificer (Artillerist), Artificer (UA) (Artillerist)</classes>".
 10. Replace "Artificer (UA) (Battle Smith)</classes>" with "Artificer (Battle Smith), Artificer (UA) (Battle Smith)</classes>".
 
-If you want to keep both the 2014 & 2024 versions of any of these, then do the following:
+If you want to keep both the 2014 & 2024 versions of any of these categories, then do the following:
 1. If you want to keep the 2014 & 2024 versions of Races, then search for <race> and for each race
    Replace "</name>
     <size>" with " [2024]</name>
@@ -43,3 +43,11 @@ A few spells in 2014 got renamed in 2024, so we need to rename them in the 2014 
 Order to load these edited Collections:
 1. Load the edited WotC_2014+PartneredContent+MercerBrew collection
 2. Load the edited WotC_2024+UnearthedArcana collection
+
+Attached Collections have been adjusted as above (keeping both versions of Races, Backgrounds, Classes, and Spells).
+* The 2024 Classes were pulled out and worked out in a separate document, since there were a large number of changes I made to better integrate them (none of them involving changing anything from official release data).
+
+Upcoming Work to be completed:
+* Adding Familiar versions of all possible Familiars for the Find Familiar options, edited to make all Familiars more viable options (rather than the default owl)
+* Appending " [2014]" after 2014 race/background/class/spell names (only the ones converted to 2024), to allow combining the 2014 and 2024 untagged data together
+  * This should ensure that references to this data from Monsters/Classes/Items etc point to the updated 2024 updated version if available, while keeping the 2014 version of historical reference
