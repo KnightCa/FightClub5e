@@ -40,15 +40,16 @@ A few spells in 2014 got renamed in 2024, so we need to rename them in the 2014 
 3. Search for "Summon Draconic Spirit" (not case sensitive) and Replace with "Befuddlement".
 4. Search for "Branding Smite" (not case sensitive) and Replace with "Shining Smite".
 
-Order to load these edited Collections:
-1. Load the edited WotC_2014+PartneredContent+MercerBrew collection
-2. Load the edited WotC_2024+UnearthedArcana collection
-3. (optional) Load the revised unofficial WotC_2024+2014_Familiars_Updated.xml
-
 Attached Collections have been adjusted as above (keeping both versions of Races, Backgrounds, Classes, and Spells).
 * The 2024 Classes were pulled out and worked out in a separate document, since there were a large number of changes I made to better integrate them (none of them involving changing anything from official release data).
+* Adding Familiar versions of all possible 2014 and 2024 Familiars for the Find Familiar options, edited to make all Familiars more viable options (rather than the default owl)
+
+Order to load these edited Collections:
+1. Load the edited 1_WotC_2014+PartneredContent+MercerBrew_edited.xml
+2. Load the edited 2_WotC_2024+UnearthedArcana-Classes_edited_untagged.xml
+3. Load the edited 3_WotC_2024_Classes_edited.xml
+4. (optional) Load the revised unofficial 4_WotC_2024_Familiars_Updated.xml
 
 Upcoming Work to be completed:
-* Adding Familiar versions of all possible Familiars for the Find Familiar options, edited to make all Familiars more viable options (rather than the default owl)
 * Appending " [2014]" after 2014 race/background/class/spell names (only the ones converted to 2024), to allow combining the 2014 and 2024 untagged data together
   * This should ensure that references to this data from Monsters/Classes/Items etc point to the updated 2024 updated version if available, while keeping the 2014 version of historical reference
