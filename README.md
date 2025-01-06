@@ -43,6 +43,7 @@ A few spells in 2014 got renamed in 2024, so we need to rename them in the 2014 
 Order to load these edited Collections:
 1. Load the edited WotC_2014+PartneredContent+MercerBrew collection
 2. Load the edited WotC_2024+UnearthedArcana collection
+3. (optional) Load the revised unofficial WotC_2024+2014_Familiars_Updated.xml
 
 Attached Collections have been adjusted as above (keeping both versions of Races, Backgrounds, Classes, and Spells).
 * The 2024 Classes were pulled out and worked out in a separate document, since there were a large number of changes I made to better integrate them (none of them involving changing anything from official release data).
