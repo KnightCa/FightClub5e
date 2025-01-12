@@ -37,7 +37,7 @@ If you want to keep both the 2014 & 2024 versions of any of these categories, th
 A few spells in 2014 got renamed in 2024, so we need to rename them in the 2014 Repository:
 1. Download and edit [WotC_2014+PartneredContent+MercerBrew](https://github.com/vidalvanbergen/FightClub5eXML/releases/download/2024.12.31/WotC_2014+PartneredContent+MercerBrew.xml) Compendium
 2. Search for "Feeblemind" (not case sensitive) and Replace with "Befuddlement".
-3. Search for "Summon Draconic Spirit" (not case sensitive) and Replace with "Befuddlement".
+3. Search for "Summon Dragon" (not case sensitive) and Replace with "Summon Draconic Spirit".
 4. Search for "Branding Smite" (not case sensitive) and Replace with "Shining Smite".
 
 Attached Collections have been adjusted as above (keeping both versions of Races, Backgrounds, Classes, and Spells).
